@@ -73,3 +73,7 @@ div.taskList .dueDate span { display:none;}
 
 div.taskList .options  { float: left; padding: 0px; margin-top:0;}
 
+/*--- IMPROVMENTS FROM PHPFREAK ---*/
+div.openTasks {
+  clear:both;
+}
