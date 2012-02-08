@@ -1,0 +1,4 @@
+#pageTitle { background:url(../../images/logtypes/projecttasks.gif) left center no-repeat; padding-left:25px; margin-bottom:0; }
+
+#reorderTasks table td { padding: 5px; }
+#reorderTasks table td input.short { width: 30px; }

@@ -1,0 +1,74 @@
+#userPermissions table { xwidth: 500px; }
+#userPermissions td.projectName { width: 150px; }
+#userPermissions #userProjects table { width:920px !important; overflow:hidden;table-layout:fixed; }
+#userPermissions #userProjects table tr td { padding:0 !important; }
+#userPermissions #userProjects td { width: 16px !important; overflow:hidden;padding:0 !important; margin:0 !important; }
+
+#userPermissions #userProjects tr td.projectName { width:90px !important; text-align:right; padding-right:10px !important; overflow:hidden; }
+
+
+
+/*--- COLORED BACKGROUNDS ---*/
+/* ALL */
+#userPermissions #userProjects table tr td:nth-child(2) { background-color:#f0f0f0; }
+/* ACCESS */
+#userPermissions #userProjects table tr td:nth-child(3),
+#userPermissions #userProjects table tr td:nth-child(4),
+#userPermissions #userProjects table tr td:nth-child(5),
+#userPermissions #userProjects table tr td:nth-child(6),
+#userPermissions #userProjects table tr td:nth-child(7),
+#userPermissions #userProjects table tr td:nth-child(8),
+#userPermissions #userProjects table tr td:nth-child(9),
+#userPermissions #userProjects table tr td:nth-child(10),
+#userPermissions #userProjects table tr td:nth-child(11) { background-color:#ffffcc;  }
+/* ASSIGN */
+#userPermissions #userProjects table tr td:nth-child(12),
+#userPermissions #userProjects table tr td:nth-child(13) { background-color:#ccffff; }
+/* EDIT */
+#userPermissions #userProjects table tr td:nth-child(14),
+#userPermissions #userProjects table tr td:nth-child(15),
+#userPermissions #userProjects table tr td:nth-child(16) { background-color:#ffccff; }
+/* MANAGE */
+#userPermissions #userProjects table tr td:nth-child(17),
+#userPermissions #userProjects table tr td:nth-child(18),
+#userPermissions #userProjects table tr td:nth-child(19),
+#userPermissions #userProjects table tr td:nth-child(20),
+#userPermissions #userProjects table tr td:nth-child(21),
+#userPermissions #userProjects table tr td:nth-child(22),
+#userPermissions #userProjects table tr td:nth-child(23),
+#userPermissions #userProjects table tr td:nth-child(24),
+#userPermissions #userProjects table tr td:nth-child(25) { background-color:#ccffcc; }
+/* UPLOAD */
+#userPermissions #userProjects table tr td:nth-child(25) { background-color:#ffcccc; }
+/*--- FIRST ROW USES IMAGES ---*/
+#userPermissions #userProjects table tr:first-child td { text-indent:-9999px; height:121px; overflow:auto !important; background-image: url(../../images/permissions/permissions.png); background-repeat:no-repeat; background-color:#fff;}
+
+#userProjects:before {content:''; background-image: url(../../images/permissions/permissions-header.png);height:29px; width:911px;display:block;}
+
+#userPermissions #userProjects table tr:first-child td:nth-child(1) {  background-image:none;}
+#userPermissions #userProjects table tr:first-child td:nth-child(2) { background-position:0 0;}
+#userPermissions #userProjects table tr:first-child td:nth-child(3) { background-position:-90px 0;}
+#userPermissions #userProjects table tr:first-child td:nth-child(4) { background-position:-180px 0;}
+#userPermissions #userProjects table tr:first-child td:nth-child(5) { background-position:-270px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(6) { background-position:-360px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(7) { background-position:-450px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(8) { background-position:-540px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(9) { background-position:-630px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(10) { background-position:-720px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(11) { background-position:-810px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(12) { background-position:-900px 0;  }
+#userPermissions #userProjects table tr:first-child td:nth-child(13) { background-position:-990px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(14) { background-position:-1080px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(15) { background-position:-1170px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(16) { background-position:-1260px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(17) { background-position:-1350px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(18) { background-position:-1440px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(19) { background-position:-1530px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(20) { background-position:-1620px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(21) { background-position:-1710px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(22) { background-position:-1800px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(23) { background-position:-1890px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(24) { background-position:-1980px 0; }
+#userPermissions #userProjects table tr:first-child td:nth-child(25) { background-position:-2070px 0; }
+
+#content { width:920px; }

@@ -1,0 +1,92 @@
+/*--- IMPORTANT:  THIS FILE WAS COPIED FROM THE PRIMARY TICKETS.CSS, BECAUSE "TICKET CATEGORIES" IS INCLUDING THE WRONG PATH ---*/
+
+h1#pageTitle { background:url(../../images/logtypes/projecttickets.gif) left center no-repeat; padding-left:25px; margin-bottom:0; }
+#tickets {}
+#tickets .critical, #tickets_legend .critical {  background-color: #ffdddd;}
+#tickets .major, #tickets_legend .major {  background-color: #ffeedd;}
+#tickets .minor, #tickets_legend .minor {  background-color: #ffffdd;}
+#tickets .trivial, #tickets_legend .trivial {  background-color: #eeffee;}
+#tickets .tickets_header {  font-weight: bold;  font-size: 14px;}
+
+#tickets table tbody tr:first-child td {
+ font-weight: bold;
+ background: background: rgb(242,242,242); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(250,255,244,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,1)), color-stop(100%,rgba(250,255,244,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(250,255,244,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(250,255,244,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(250,255,244,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(242,242,242,1) 0%,rgba(250,255,244,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#fafff4',GradientType=0 ); /* IE6-9 */;
+ font-size: 12px;
+ padding: 2px 5px;
+ vertical-align: top;
+}
+
+
+
+#tickets_legend {
+  width: 120px;
+}
+
+#tickets_legend .legend {
+  border: 1px solid #d0d0d0;
+  padding: 2px;
+  margin-bottom: 2px;
+  text-align:center;
+  font-weight: bold;
+font-size: 11px;
+text-transform: uppercase;
+}
+
+#tickets_legend ul {
+  list-style: none;
+}
+
+#tickets_legend li .legend {
+  list-style: none;
+}
+/** Ticket display */
+#ticket {
+ background: #ffd;
+ border: 1px outset #996;
+ margin-top: 1em;
+ padding: .5em 1em;
+ position: relative;
+}
+
+#ticket table.properties {width: 100%;}
+#tickets table tr td:first-child { background:#fff; text-align:center;  }
+#tickets table tr td:first-child div a { background:url(../../images/icons/edit-16.png) left center no-repeat; 
+padding:0 0 0 21px; display:block; line-height:18px; }
+#tickets table tr td:first-child div a:hover { background-color:#ff9; } 
+
+
+#tickets table tbody tr td:nth-child(4) {  font-weight: bold;  font-size: 11px; text-transform:uppercase; text-align:center; }
+ 
+#sidebar { }
+/*--- ADD TICKET FORM ---*/
+#content { }
+#pageContent form div {  }
+/*#pageContent form br { display:none; } */
+#pageContent form>div>label { display: inline-block; width:80px; text-align:right; margin-right:10px; }
+
+#pageContent form fieldset { padding:0 10px; margin:0 0 10px 0; }
+
+#pageContent form fieldset:nth-child(9) { border:none;}
+#pageContent form fieldset:nth-child(9) legend { display:none;}
+
+
+#pageContent form fieldset .objectOption { margin:0; }
+#pageContent form fieldset .optionLabel  { width:  auto; display:inline-block; float:none; }
+#pageContent form fieldset .optionControl { margin:0 0 0 10px;display:inline-block; }
+#pageContent form fieldset .optionDesc { margin:0 0 0 10px;display:inline-block; width:300px; line-height:normal; }
+
+#pageContent form fieldset#emailNotification p { margin:0 0 5px 0; }
+#pageContent form fieldset#emailNotification .companyName { margin:0 0 0 25px; }
+#pageContent form fieldset#emailNotification .companyMembers { margin-left:50px; }
+#pageContent form fieldset#emailNotification .companyMembers li { list-style:none; }
+
+#pageContent form fieldset.attachFiles  { padding-bottom:8px; border:none; }
+#pageContent form fieldset.attachFiles legend { display:inline-block; float:left;}
+#pageContent form fieldset.attachFiles input { border:none; }

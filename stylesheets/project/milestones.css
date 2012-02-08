@@ -1,0 +1,9 @@
+#pageTitle { background:url(../../images/logtypes/projectmilestones.gif) left center no-repeat; padding-left:25px; margin-bottom:0; }
+#milestones .milestone .dueDate SPAN
+{
+	font-weight: bold;
+}
+.milestoneOptions A
+{
+	color: #4887A0;
+}

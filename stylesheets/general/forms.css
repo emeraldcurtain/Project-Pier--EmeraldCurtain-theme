@@ -1,0 +1,77 @@
+label { display: block; font-size: 12px; line-height:normal; font-weight: bold; margin: 3px 0; }
+label.checkbox, label.yes_no { display: inline; position: relative; top: -2px; }
+* html label.checkbox, * html label.yes_no { top: 1px; }
+label.yes_no { font-weight: normal; }
+label span.label_required { color: #bf5940; }
+input, textarea, select{ background-color: #ffffff; display:inline-block;  line-height:18px;background-image: url(../../images/layout/bg_inputs.png); background-repeat: no-repeat; border: 1px solid #cccccc; font-family: calibri, tahoma,verdana, arial, helvetica, sans-serif; font-size: 12px; padding: 2px 5px;  }
+select { padding: 1px; }
+input:hover, textarea:hover, select:hover { border: 1px solid #aaaaaa; }
+input:focus, textarea:focus, select:focus { border: 1px solid #8dbbce; }
+fieldset { border: 1px solid #cccccc; background-color: #f6f8f9margin: 10px 0; padding: 10px; padding-top: 5px; }
+fieldset legend { font-size: 12px; font-weight: bold; }
+input { width: 200px; }
+input.short { width: 50px; }
+input.medium { width: 300px; }
+input.long { width: 600px; }
+input.title { width: 530px; }
+input.checkbox, input.yes_no { background: transparent; border: 0; width: auto; }
+legend label.checkbox { font-weight: bold; }
+textarea, textarea.long { height: 150px; width: 600px; }
+textarea.short { height: 70px; width: 300px; }
+textarea.comment { height: 150px; width: 600px; }
+textarea.editor { height: 300px; width: 600px; }
+
+button, button.submit, input[type=submit], button[type=submit], .submit {
+	
+
+
+		border:1px solid #666; color:#333; display:inline-block;
+		font-size:13px; font-weight:bold; 
+		letter-spacing: 1px; margin-top: 10px; padding: 4px 20px; margin-right:10px;
+		-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	
+		background: rgb(204,252,204); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(204,252,204,1) 0%, rgba(141,206,146,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,252,204,1)), color-stop(100%,rgba(141,206,146,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(204,252,204,1) 0%,rgba(141,206,146,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(204,252,204,1) 0%,rgba(141,206,146,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(204,252,204,1) 0%,rgba(141,206,146,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(204,252,204,1) 0%,rgba(141,206,146,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccfccc', endColorstr='#8dce92',GradientType=0 ); /* IE6-9 */
+	
+	
+	}
+
+
+button:hover, button.submit:hover, input[type=submit]:hover, button[type=submit]:hover, .submit:hover { 
+	border: 1px solid #000; 
+	background:#82BC85; color:#000;}
+	
+button, .submit, .reset{ float: right; margin-left: 5px; overflow: visible; vertical-align: middle; }
+button[type=reset],input[type=reset]{ background-color: #a9a9a9; background-image: url(../../images/layout/bg_btn_reset.png); border: 1px solid #9a9a9a; margin-top: -.70em; }
+button.reset,* html button{ background-color: #a9a9a9; background-image: url(../../images/layout/bg_btn_reset.png); border: 1px solid #9a9a9a; color: #ffffff; font-size: 12px; font-weight: bold; letter-spacing: 1px; margin-top: -.70em; padding: 4px 12px; }
+* html .submit { background-color: #599db7; background-image: url(../../images/layout/bg_crumbs.png); background-repeat: repeat-x; border: 1px solid #4887a0; margin-top: 10px; }
+/*-------------------- hack opera---------------------*/ 
+html:first-child button[type=reset],input[type=reset]{  margin-top: .8em;  }
+span.required { color: #bf5940; }
+form div.formBlock label { margin-top: 0; padding-top: 0; }
+#formErrors { background: -moz-linear-gradient(top, rgba(255,237,237,1) 0%, rgba(255,216,217,0.24) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,237,237,1)), color-stop(100%,rgba(255,216,217,0.24))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,237,237,1) 0%,rgba(255,216,217,0.24) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,237,237,1) 0%,rgba(255,216,217,0.24) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,237,237,1) 0%,rgba(255,216,217,0.24) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(255,237,237,1) 0%,rgba(255,216,217,0.24) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeded', endColorstr='#3dffd8d9',GradientType=0 ); /* IE6-9 */ border: 1px solid #efcab8; padding: 5px; }
+/** Options block, best to put it into fieldset **/
+.objectOption { margin-top: 5px; }
+.objectOption .optionLabel { display: block; float: left; width: 140px; }
+.objectOption .optionLabel label { margin: 0; padding: 0; }
+.objectOption div.optionControl { margin-left: 140px; }
+.objectOption div.optionDesc { clear: left; color: #333333; font-size: 11px; padding: 0 5px 5px 5px; }
+
+/* --- DATE PICKER --- */
+.ui-datepicker-trigger { padding:3px; display:inline-block;
+		border:1px solid #ccc; display:inline-block; background:#f6f6f6; 
+		-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.ui-datepicker-trigger:hover { background:#e0e0e0; line-height:18px;	}
+input.hasDatepicker { margin-right:2px ; display:block; float:left; width:80px; }

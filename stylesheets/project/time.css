@@ -1,0 +1,97 @@
+#pageTitle { background:url(../../images/logtypes/projecttimes.gif) left center no-repeat; padding-left:25px; margin-bottom:0; }
+
+
+.timeTaskList {
+background: #F5F9FA;
+  border:1px solid #BBD7E2;
+  padding:5px;
+  margin-bottom:10px;
+}
+
+.timeTaskList h2 {
+  margin-top:0;
+  border-bottom:1px solid #BBD7E2;
+  padding-bottom:5px;
+}
+
+.timeLogs {
+  width:640px;
+}
+
+.timeLogs td {
+	background:#FFF;
+  padding:2px 0 2px 5px;
+}
+
+.timeLogs th {
+  background-color:#D6E7ED;
+}
+
+.timeLogs .timeCheck {
+}
+
+.timeLogs .timeCheck input {
+  width:auto;
+}
+
+.timeLogs .timeDate {
+  font-size: 11px; text-transform:uppercase;
+}
+
+.timeLogs .timeDateSmall {
+}
+
+.timeLogs .timeUser {
+}
+
+.timeLogs .timeProject {
+}
+
+.timeLogs .timeDetailsLarge {
+}
+
+.timeLogs .timeDetails {
+}
+.timeLogs .timeDetails a {
+	background:url(../../images/icons/view-16.png) left center no-repeat;
+	padding-left:18px;
+	display:block;
+}
+.timeLogs .timeDetails a:hover { background-color:#ff9; border:none; }
+
+.timeLogs .timeDetailsSmall {
+}
+
+.timeLogs .timeHours {
+}
+
+.timeLogs .timeEdit {
+  width:54px;
+  text-align:right;
+  color:#fff; font-size:1px;
+}
+.timeLogs .timeEdit a { 
+	height:18px; width:24px; display:inline-block;
+	text-indent:800px; overflow:hidden;
+}
+
+.timeLogs .timeEdit a:first-child {
+	background:url(../../images/icons/edit-16.png) center center no-repeat;
+}
+.timeLogs .timeEdit a:last-child {
+	background:url(../../images/icons/delete-16.png) center center no-repeat;
+}
+.timeLogs .timeEdit a:hover { background-color:#ff9; border:none; }
+
+.submitTime {
+  text-align:center;
+  margin:10px 0;
+}
+
+.submitTime input {
+  width:auto;
+}
+
+.total td {
+  background-color:#F0F0F0;
+}
