@@ -469,7 +469,7 @@ ul#page_menu>li  {
  	margin: 0;
  	padding: 0; 
 }
-/*#page_actions ul>li>a,
+#page_actions ul>li>a,
 ul#page_menu>li>a,
 ul#page_menu ul:before { 
 		border:1px solid #ccc; background:#ccc; color:#333; padding:0 5px; margin:0 5px 0 0; display:inline-block;
