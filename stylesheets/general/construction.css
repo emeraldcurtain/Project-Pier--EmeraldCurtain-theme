@@ -469,39 +469,40 @@ ul#page_menu>li  {
  	margin: 0;
  	padding: 0; 
 }
-#page_actions ul>li>a,
+/*#page_actions ul>li>a,
 ul#page_menu>li>a,
 ul#page_menu ul:before { 
 		border:1px solid #ccc; background:#ccc; color:#333; padding:0 5px; margin:0 5px 0 0; display:inline-block;
 		font-size:13px; font-weight:bold; text-transform:uppercase;
 		-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
-		background: rgb(246,246,246); /* Old browsers */
-		background: -moz-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 19%, rgba(240,240,240,1) 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,246,246,1)), color-stop(19%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top, rgba(246,246,246,1) 0%,rgba(255,255,255,1) 19%,rgba(240,240,240,1) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top, rgba(246,246,246,1) 0%,rgba(255,255,255,1) 19%,rgba(240,240,240,1) 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top, rgba(246,246,246,1) 0%,rgba(255,255,255,1) 19%,rgba(240,240,240,1) 100%); /* IE10+ */
-		background: linear-gradient(top, rgba(246,246,246,1) 0%,rgba(255,255,255,1) 19%,rgba(240,240,240,1) 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9 */
+		background: rgb(246,246,246);
+		background: -moz-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 19%, rgba(240,240,240,1) 100%); 
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,246,246,1)), color-stop(19%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1))); 
+		background: -webkit-linear-gradient(top, rgba(246,246,246,1) 0%,rgba(255,255,255,1) 19%,rgba(240,240,240,1) 100%); 
+		background: -o-linear-gradient(top, rgba(246,246,246,1) 0%,rgba(255,255,255,1) 19%,rgba(240,240,240,1) 100%); 
+		background: -ms-linear-gradient(top, rgba(246,246,246,1) 0%,rgba(255,255,255,1) 19%,rgba(240,240,240,1) 100%); 
+		background: linear-gradient(top, rgba(246,246,246,1) 0%,rgba(255,255,255,1) 19%,rgba(240,240,240,1) 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f0f0f0',GradientType=0 ); 
 	}
 #page_actions ul>li>a:hover,
 ul#page_menu>li>a:hover {  background:#f0f0f0; color:#900;}
-/*---
+/*---*/
+/*---*/
 
 /*--- PAGE MENU DROPDOWN ---*/
-ul#page_menu ul:before {
+/*ul#page_menu ul:before {
 	content:'';
 	background:url(../../images/layout/actions.png) no-repeat;
+	border:none;
 	width:77px;
 	height:24px;
 	margin-top:-24px; 
 	margin-left:-55px;
 	display:block;
-	border:none;
 	}
 ul#page_menu>li:hover ul:before {
 	background:url(../../images/layout/actions.png) no-repeat 0 -25px;
-	}
+	}*/
 ul#page_menu ul {
  	clear: left;
  	font-weight: normal;
@@ -515,7 +516,7 @@ ul#page_menu ul {
 	
 }
 ul#page_menu>li ul li { display:none; border-left: 1px solid #CCCCCC;  border-right: 1px solid #CCCCCC;  margin-top:-1px; 
-	margin-left:-55px; }
+	 }
 ul#page_menu>li:hover ul li { display:block;   }
 
 ul#page_menu ul li:first-child  {	border-top: 1px solid #CCCCCC;	}
@@ -545,6 +546,20 @@ ul#page_menu ul li a:hover  {
 	border-bottom:none;
 	background:#ffffcc
 }
+
+/*---PAGE MENU TITLE---*/
+ul#page_menu a#page_menu_title { 
+	display:block; height:25px;
+	padding:0 25px 0 10px;
+	border:1px solid #ccc; color:#333;font-size:13px; font-weight:bold; text-transform:uppercase;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	
+	background:url(../../images/layout/down-arrow.png) right top  no-repeat !important;
+	}
+ul#page_menu:hover a#page_menu_title { 
+	color:#900;
+	background:url(../../images/layout/down-arrow.png) right -25px  no-repeat !important;
+	}
 /* html #account_more_menu ul li, * html #account_more_menu ul li a  {
  height: 1%;
 }
@@ -806,12 +821,14 @@ div.private  {
  background: url('../../images/icons/private.gif') no-repeat;
  float: right;
  height: 14px;
- overflow: hidden;
- width: 50px;
+ margin-left:14px;
 }
 
 div.private span  {
- display: none;
+	margin-left:15px;
+	font:9px/14px Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	display:inline-block;
 }
 
 #sidebar .listWithDetails li a  {

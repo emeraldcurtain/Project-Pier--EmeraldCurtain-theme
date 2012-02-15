@@ -5,7 +5,7 @@ Revision: 1.4 (December 2011)
 Compatibility: Projectpier 0.8.8 alpha
 Author: Phillip Bryan
 License: HPL (Honest Public License http://www.projectpier.org/about/honest-public-license-hpl)
-Theme Home: http://www.theemeraldcurtain.com/
+Theme Home: https://github.com/emeraldcurtain/Project-Pier--EmeraldCurtain-theme
 
 
 A new theme for project pier focusing on usability and clarity.
@@ -23,7 +23,7 @@ This theme has been configured to work with Project Pier 0.8.8 - alpha.
 ~~~~~~~~~~~~~~~~~~~~ 
 Theme Installation
 ~~~~~~~~~~~~~~~~~~~~ 
-1. Download theme files from http://www.theemeraldcurtain.com/project-pier/emeraldcurtain-1-4-theme-for-project-pier-0-8-8/
+1. Download theme files from https://github.com/emeraldcurtain/Project-Pier--EmeraldCurtain-theme
 2. Unpack the files to a temporary space on your hard drive
 3. Upload the files to your web server in the directory
    /projectroot/public/assets/themes/ where projectroot is the root
@@ -62,6 +62,14 @@ Change History
 	* Major changes to Time page 
 	* Major changes to Permissions page 
 	* Significant changes to Reports page
+
+~2012-02-08
+	* Project moved into github.  Further substantive commits are listed by date.
+	* Added stylesheets directory "colorbox" and small changes to rewrites.css
+	* Added class to task_list.css to correct problem on task page
+
+~2012-02-15
+	* Removed text from "private" icon and "actions" dropdown button
 
 
 ~~~~~~~~~~~~~~~~~
